@@ -1,0 +1,8 @@
+package estruturas;
+
+public class PilhaCheia extends Exception {
+	public PilhaCheia()
+	{
+		super("Tentativa de incluir em uma pilha cheia.");
+	}
+}
