@@ -1,0 +1,15 @@
+import algoritmos.expressaoCalc;
+import static java.lang.System.*;
+public class Principal {
+
+	public static void main(String[] args) throws Exception {
+		
+		
+		//tem que colocar com espaços.
+		String expressao = " ( 2 * ( 3 + 6 ) )";
+		
+		out.println(expressaoCalc.PosFixo(expressao));
+		
+
+	}
+}
